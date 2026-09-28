@@ -36,6 +36,6 @@ while vontade != 'N':
 
     partida(escolha, maquina)
     while vontade != 'S' and vontade != 'N':
-        vontade = input('Deseja jogar outra partida? (S/N): ')
+        vontade = input('Deseja jogar outra partida? (S/N): ').upper()
         if vontade != 'S' and vontade != 'N':
                 print('Entrada inválida!')
